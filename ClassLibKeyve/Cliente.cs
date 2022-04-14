@@ -50,7 +50,7 @@ namespace ClassLibKeyve
         }
 
         // métodos da classe
-        public void Inserir(Cliente cliente)
+        public void Inserir()
         {
             var cmd = Banco.Abrir();
             cmd.CommandType = CommandType.StoredProcedure;

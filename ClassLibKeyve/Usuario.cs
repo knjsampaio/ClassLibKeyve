@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ClassLibKeyve;
 
 namespace ClassLibKeyve
 {
@@ -40,12 +41,10 @@ namespace ClassLibKeyve
         {
 
         }
-        public Usuario(string nome, string email, Nivel nivel, string password)
+        public Usuario(string nome, string email)
         {
             this.nome = nome;
-            this.email = email;
-            this.password = password;
-            this.nivel = nivel;
+            this.email = email;            
             ativo = true;
         }
 
@@ -57,7 +56,11 @@ namespace ClassLibKeyve
             this.password = password;
             this.nivel = nivel;
             this.ativo = ativo;
+
         }
+
+
+
         // métodos da classe
         public int Inserir()
         {
