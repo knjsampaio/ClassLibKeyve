@@ -36,7 +36,7 @@ namespace ComercialKeyveSys
 
         private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmCliente frmcliente = new FrmCliente(this);
+            dtpDataCad frmcliente = new dtpDataCad(this);
             frmcliente.Show();
         }
 
